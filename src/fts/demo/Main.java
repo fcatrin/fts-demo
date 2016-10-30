@@ -9,6 +9,7 @@ public class Main {
 		Application app = new Application(new SWTFactory());
 		Window window = app.createWindow();
 		window.setTitle("First FTS window");
+		window.setContentView(app.inflateView("main"));
 		window.open();
 		window.mainLoop();
 	}
