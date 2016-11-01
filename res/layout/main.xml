@@ -1,17 +1,17 @@
 <LinearLayout
     orientation="vertical"
-    width="match_parent"
-    height="match_parent">
-    <Text
-        width="match_parent"
-        height="wrap_content"
+    layoutWidth="match_parent"
+    layoutHeight="match_parent">
+    <TextView
+        layoutWidth="match_parent"
+        layoutHeight="wrap_content"
         text="First line"/>
-    <Text
-        width="match_parent"
-        height="wrap_content"
+    <TextView
+        layoutWidth="match_parent"
+        layoutHeight="wrap_content"
         text="Second line"/>
-    <Text
-        width="match_parent"
-        height="wrap_content"
+    <TextView
+        layoutWidth="match_parent"
+        layoutHeight="wrap_content"
         text="Third line"/>
 </LinearLayout>
