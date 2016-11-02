@@ -8,13 +8,15 @@ import fts.views.View;
 public class Main {
 	public static void main(String[] args) {
 		Application app = new Application(new SWTFactory());
-		Window window = app.createWindow();
+		Window window = Application.createWindow();
 		window.setTitle("First FTS window");
 		
 		View rootView = app.inflateView(window, "main");
-		System.out.println(rootView);
 		window.setContentView(rootView);
 		window.open();
+		window.layout();
 		window.mainLoop();
+		System.out.println(rootView);
+
 	}
 }
