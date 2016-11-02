@@ -11,7 +11,7 @@ public class Main {
 		Window window = app.createWindow();
 		window.setTitle("First FTS window");
 		
-		View rootView = app.inflateView("main");
+		View rootView = app.inflateView(window, "main");
 		System.out.println(rootView);
 		window.setContentView(rootView);
 		window.open();
